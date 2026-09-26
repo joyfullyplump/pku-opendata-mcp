@@ -1,0 +1,10 @@
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05"}}
+{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}
+{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"pku_platform_stats","arguments":{}}}
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"pku_search_datasets","arguments":{"query":"longevity","per_page":3}}}
+{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"pku_search_files","arguments":{"query":"autism","per_page":2}}}
+{"jsonrpc":"2.0","id":6,"method":"tools/call","params":{"name":"pku_get_dataset","arguments":{"identifier":"10.18170/DVN/VXPXUG"}}}
+{"jsonrpc":"2.0","id":7,"method":"tools/call","params":{"name":"pku_dataset_files","arguments":{"identifier":"10.18170/DVN/VXPXUG","per_page":5}}}
+{"jsonrpc":"2.0","id":8,"method":"tools/call","params":{"name":"pku_search_datasets","arguments":{"query":"zzz_no_such_thing","per_page":2}}}
+{"jsonrpc":"2.0","id":9,"method":"ping","params":{}}
+{"jsonrpc":"2.0","id":10,"method":"tools/call","params":{"name":"not_a_real_tool","arguments":{}}}

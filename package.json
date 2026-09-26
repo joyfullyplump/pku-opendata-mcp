@@ -1,0 +1,39 @@
+{
+  "name": "pku-opendata-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Peking University Open Research Data Platform (opendata.pku.edu.cn) - a Dataverse instance with 497 datasets and 8611 files.",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "dataverse",
+    "pku",
+    "peking-university",
+    "research-data",
+    "open-data"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "pku-opendata-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyfullyplump/pku-opendata-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joyfullyplump/pku-opendata-mcp/issues"
+  },
+  "homepage": "https://github.com/joyfullyplump/pku-opendata-mcp#readme"
+}

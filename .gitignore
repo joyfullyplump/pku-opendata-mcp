@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log*
+package-lock.json
+test-output.jsonl
+test-err.log
+*.tgz
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
